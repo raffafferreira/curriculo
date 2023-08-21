@@ -1,0 +1,165 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(233, 233, 233);
+    
+}
+main{
+    max-width: 700px;
+    margin: auto;
+    padding: 5px;
+    background-color: rgb(95, 158, 139);
+    border-radius: 90px 10px 10px 10px;
+    border: 1px solid rgba(0, 0, 0, 0.233);
+    box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.5);
+}
+.shadowcorpo{
+    border-radius: 70px 10px 10px 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.462);
+    background-color: rgb(236, 236, 236);
+    margin: -10px -6px -10px 0px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "info section0"
+    "info section1"
+    "info section4"
+    "info section5"
+    "info section2 "
+    "info section3";
+    text-align: justify;
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.u-linguas>ul>li{
+    list-style: none;
+}        
+aside{
+    grid-area: info;
+    width: 220px;
+}
+.hrinfo{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.rightform{
+    width: 80%;
+}
+.aside{
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 35px;
+}
+.section0, .section1, .section2, .section3, .section4, .section5{
+    padding: 10px 25px 10px 25px;
+}
+.section0{
+    border-radius: 90px 10px 0px 0px;
+}
+.s0nome{
+    padding-top: 25px;
+}
+.section0{
+    grid-area: section0;
+
+}
+.section1{
+    grid-area: section1;
+}
+.section1 > p, .section2 > p, .section4 > p{
+    margin-top: 5px;
+    line-height: 1.2em;
+}
+.section2{
+    grid-area: section2;
+}
+.section3{
+    grid-area: section3;
+}
+.section3>ul>li, .section5>ul>li{
+    margin-left: 20px;
+    list-style-type: upper-roman;
+    line-height: 1.2em;
+    font-size: 0.9em;
+    margin-top: 5px;
+}
+.section4{
+    grid-area: section4;
+}
+.section5{
+    grid-area: section5;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+.avatar{
+    width: 150px;
+    border-radius: 50%;
+    border: 1px solid rgb(0, 0, 0);
+}
+#info{
+    font-size: 1em;
+    font-weight: bolder;
+}
+.titulo{
+    font-size: 0.7em;
+    font-weight: 800;
+}
+#nome{
+    font-size: 1.2em;
+    line-height: normal;
+    margin-top: 5px;
+}
+#e-mail{
+    letter-spacing: 1px;
+}
+p.dados, p.secoes, .contato{
+    font-size: 0.8em;
+    
+}
+p{
+    line-height: 2em;
+}
+.linguas{
+    font-size: 0.8em;
+    text-align: left;
+}
+.espacos{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+#ultimo-espaco{
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+}
+
+.u-linguas{
+    margin: auto;
+    width: 150px;
+    text-align: left;
+    font-size: 0.8em;
+    line-height: 2em;
+    text-indent: 1em;
+}
+.i-linguas{
+    margin: auto;
+    width: 150px;
+    text-align: left;
+    font-size: 0.8em;
+    line-height: 2em;
+}
+
