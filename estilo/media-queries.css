@@ -6,12 +6,15 @@
         grid-template-columns: 1fr;
         grid-template-rows: auto;
         grid-template-areas: 
-        "section0"
-        "section1"
-        "section4"
-        "section5"
-        "section2 "
-        "section3";
+        "info section0"
+        "info section1"
+        "info section4"
+        "info section5"
+        "info section2 "
+        "info section3"
+        "info section6"
+        "info section7"
+        "info section8";
         text-align: justify;
     }
     aside{
