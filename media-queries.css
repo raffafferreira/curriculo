@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 320px) and (max-width: 750px) {
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "info section0"
+        "info section1"
+        "info section4"
+        "info section5"
+        "info section2 "
+        "info section3"
+        "info section6"
+        "info section7"
+        "info section8";
+        text-align: justify;
+    }
+    aside{
+        display: none;
+    }
+    .shadowcorpo{
+        border-radius: 85px 10px 10px 10px;
+        margin: 0px 0px 0px 0px;
+    }
+
+}
+
+
+
